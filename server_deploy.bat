@@ -1,0 +1,1 @@
+aws cloudformation %1 --stack-name %2 --template-body file://server.yaml  --parameters file://server-params.json --capabilities "CAPABILITY_IAM" "CAPABILITY_NAMED_IAM" --region=us-east-1
